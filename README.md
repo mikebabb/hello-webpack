@@ -17,7 +17,7 @@ You should be able to the app working by opening the index.html in your browser 
 1. Compile the JavaScript using webpack. Verify it works by running the included server.
 
    - The required node modules should already be installed
-   - You will need to change the `index.html`
+   - You will need to change `index.html`
    - A build script has been added to the `scripts` section of `package.json`
    - A `webpack.config.js` already exists for you to complete
 
@@ -26,7 +26,9 @@ You should be able to the app working by opening the index.html in your browser 
    - Webpack can use 'loaders' to process different types of modules
    - Use the `css-loader` and `style-loader`
 
-3. Introduce an error into the app. I would suggest something like this: `const nextGreeting = GREETINGS[index + 1000];` Rebuild the app and make a note of the error trace in the console. Provide a better trace by using a sourcemap
+3. Introduce an error into the app. I would suggest something like this: `const nextGreeting = GREETINGS[index + 1000];` Rebuild the app and make a note of the error trace in the console. Provide a better trace by using a sourcemap.
+
+   - You could use either `devtool` or `SourceMapDevToolPlugin`
 
 4. The app only has a production mode so development is pretty clunky. Create a live reloading development mode by using `webpack-dev-server`
 
