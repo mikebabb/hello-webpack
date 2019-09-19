@@ -4,7 +4,8 @@
   "description": "tutorial app for learning about webpack",
   "private": true,
   "scripts": {
-    "server": "http-server ./dist -p 8081"
+    "build": "webpack",
+    "server": "http-server ./dist -p 8081 -c -1"
   },
   "author": "",
   "license": "ISC",
