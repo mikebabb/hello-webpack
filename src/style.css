@@ -1,0 +1,17 @@
+html {
+  font-family: Roboto, Ubuntu, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+  width: 600px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+button {
+  background: #e2e2e2;
+  color: #212121;
+  border: none;
+  border-radius: 0.125rem;
+  padding: 0.5rem;
+}
