@@ -1,3 +1,8 @@
+import _ from "lodash";
+import GREETINGS from "./config";
+
+import "./style.css";
+
 const btn = document.querySelector("#new-greeting");
 const greeting = document.querySelector("#greeting");
 

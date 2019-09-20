@@ -245,3 +245,5 @@ const GREETINGS = [
   ["ZM", "Zambia", "Hello"],
   ["ZW", "Zimbabwe", "Hello"]
 ];
+
+export default GREETINGS;
